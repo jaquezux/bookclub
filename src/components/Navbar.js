@@ -14,7 +14,8 @@ function Navbar() {
             <div className='navbar-container'>
                 <div>
                     <Link className='navbar-logo' to='/'>
-                        <i class="fa-solid fa-book-quran"> Clube do Livro! </i>
+                        <i class="fa-solid fa-book-quran"></i>
+                        <h1>Vamos ler juntos!</h1>
                     </Link>
                 </div>
                 <div className='menu-icon' onClick={handleClick}>
@@ -28,11 +29,11 @@ function Navbar() {
                         <li className='navbar-item'>
                             <Link className='navbar-link' to='/'>Categorias</Link>
                         </li>
-                        <li className='navbar-item'>
+                        {/* <li className='navbar-item'>
                             <Link className='navbar-link' to='/'>Apoio</Link>
-                        </li>
+                        </li> */}
                     </ul>
-                    <Button label="Botão do Blog" styleProps={{ margin: "0px 20px" }} />
+                    {/* <Button label="Botão do Blog" styleProps={{ margin: "0px 20px" }} /> */}
                 </div>
             </div>
         </nav>
