@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.hero-container {
+    background-color: #c8fbc8;
+    background-image: linear-gradient(0deg, #c8fbc8 0%, #f7e6f7 100%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    align-items: center;
+}
+
+.hero-text {
+    color: rgb(73, 54, 87);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.hero-text > h1 {
+    font-size: 60px;
+    font-weight: 900;
+    width: 60%;
+    margin-top: 0;
+}
+
+.hero-text > p {
+    font-size: 20px;
+    width: 80%;
+}
+
+.wrapper-girl-circle {
+    position: absolute;
+    right: 0px;
+    
+}
+
+.image-girl-reading {
+    right: 0;
+    z-index: 9;
+    position: relative;
+}
+
+.background-circle {
+    width:500px;
+    height:500px;
+    border-radius:900px;
+    background:rgb(216, 216, 218);
+    margin-top: 40px;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+}
+
+

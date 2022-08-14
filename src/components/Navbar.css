@@ -1,13 +1,129 @@
-.navbar-container {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar {
+    background: rgb(190, 229, 191);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 999;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
 }
 
 .navbar-items {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-container {
+    display: flex;
     align-items: center;
-    align-content: space-between;  
+    height: 80px;
+    width: 100%;
+}
+
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    margin-left: none;
+    font-size: 30px;
+    justify-content: left;
+
+}
+
+.navbar-link {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 12px;
+    height: 100%;
+}
+
+@media screen and (min-width: 960px) {
+    .navbar-link:hover {
+        border-bottom: 4px solid #fff;
+        transition: all 0.2s ease-out;
+        color: rgb(206, 125, 165);
+    }
+}
+
+.menu-icon {
+    display: none;
+}
+
+.image-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+    .menu-icon {
+        color: rgb(255, 255, 255) ;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 40%);
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .fa-solid {
+        font-size: 20px;
+    }
+
+    .image-mobile {
+        display: block;
+        width: 80px;
+    }
+
+    .navbar-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        position: fixed;
+        top: 60px;
+        transition: all 0.5s ease;
+        justify-content: flex-start;
+    }
+
+    .navbar-items.active {
+        background: rgb(73, 54, 87);
+        left: 0;
+        z-index: 9999;
+    }
+
+    .navbar-link {
+        color: rgb(252, 252, 252);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        padding: 40px;
+        height: 100%;
+        font-size: 25px;
+    }
+
+    .navbar-link:hover {
+        transition: all 0.2s ease-out;
+        color: rgb(206, 125, 165);
+    }
+
 }

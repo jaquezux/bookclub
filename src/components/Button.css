@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main-btn {
+    background-color: rgb(206, 125, 165);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 3rem;
+    width: 8rem;
+    position: relative;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    justify-items: end;
+}
+
+.main-btn:hover {
+    border: 1px solid rgb(213, 218, 221);
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+    .main-btn {
+        display: none;
+    }
+}
+
