@@ -27,7 +27,7 @@ function Navbar() {
                             <Link className='navbar-link' to='/about'>Sobre</Link>
                         </li>
                         <li className='navbar-item'>
-                            <Link className='navbar-link' to='/'>Categorias</Link>
+                            <Link className='navbar-link' to='/category'>Categorias</Link>
                         </li>
                         {/* <li className='navbar-item'>
                             <Link className='navbar-link' to='/'>Apoio</Link>

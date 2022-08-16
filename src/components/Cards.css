@@ -1,0 +1,36 @@
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 20px;
+    width: 80%;
+    border-color: blue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 22px -20px rgba(0, 0, 0, 0.7);
+    padding: 12px;
+}
+
+.card-wrapper:first-child {
+    margin-top: 100px;
+}
+
+.card-image-wrapper {
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.card-image {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card-image-title {
+    text-align: center;
+}
+
+.card-paragraph {
+    margin-left: 90px;
+    margin-right: auto;
+}

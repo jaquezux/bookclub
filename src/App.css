@@ -15,6 +15,11 @@
   color: rgb(206, 125, 165);
 }
 
+.category > h1 {
+  text-align: center;
+  color: rgb(206, 125, 165);
+}
+
 .about > p {
   color: rgb(73, 54, 87);
   width: 70%;
